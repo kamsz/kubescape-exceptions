@@ -1,0 +1,2011 @@
+[
+  {
+    "name": "attachdetach-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "attachdetach-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "certificate-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "certificate-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "clusterrole-aggregation-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "clusterrole-aggregation-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "cronjob-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "cronjob-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "daemon-set-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "daemon-set-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "deployment-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "deployment-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "disruption-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "disruption-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "eks-vpc-resource-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "eks-vpc-resource-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "eks-vpc-resource-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "eks-vpc-resource-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "endpoint-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "endpoint-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "endpointslice-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "endpointslice-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "endpointslicemirroring-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "endpointslicemirroring-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "ephemeral-volume-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "ephemeral-volume-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "expand-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "expand-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "job-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "job-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "namespace-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "namespace-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "node-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "node-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "pv-protection-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "pv-protection-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "pvc-protection-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "pvc-protection-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "replicaset-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "replicaset-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "replication-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "replication-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "resourcequota-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "resourcequota-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "service-account-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "service-account-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "service-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "service-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "statefulset-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "statefulset-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "tagging-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "tagging-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "ttl-after-finished-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "ttl-after-finished-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "ttl-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "ttl-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "generic-garbage-collector-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "generic-garbage-collector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "pod-garbage-collector-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "pod-garbage-collector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws-cloud-provider-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "aws-cloud-provider"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws-node-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "aws-node"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "bootstrap-signer-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "bootstrap-signer"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "coredns-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "coredns"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "horizontal-pod-autoscaler-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "horizontal-pod-autoscaler"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kube-node-lease-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "kube-node-lease"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kube-proxy-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "kube-proxy"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "persistent-volume-binder-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "persistent-volume-binder"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "root-ca-cert-publisher-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "root-ca-cert-publisher"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "token-cleaner-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "token-cleaner"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "default-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "default"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0212"
+      }
+    ]
+  },
+  {
+    "name": "eks:certificate-controller-.*-User",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "User",
+          "namespace": ".*",
+          "name": "eks:certificate-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "eks:fargate-manager-.*-User",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "User",
+          "namespace": ".*",
+          "name": "eks:fargate-manager"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "eks:node-manager-.*-User",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "User",
+          "namespace": ".*",
+          "name": "eks:node-manager"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "eks:addon-manager-.*-User",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "User",
+          "namespace": ".*",
+          "name": "eks:addon-manager"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "system:kube-controller-manager-.*-User",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "User",
+          "namespace": ".*",
+          "name": "system:kube-controller-manager"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "system:kube-scheduler-.*-User",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "User",
+          "namespace": ".*",
+          "name": "system:kube-scheduler"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "system:masters-.*-Group",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "Group",
+          "namespace": ".*",
+          "name": "system:masters"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": ".*-eks-ClusterDescribe",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ClusterDescribe",
+          "namespace": "eks",
+          "name": ".*"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "coredns-kube-system-Deployment",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "Deployment",
+          "namespace": "kube-system",
+          "name": "coredns"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kube-proxy-kube-system-DaemonSet",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "DaemonSet",
+          "namespace": "kube-system",
+          "name": "kube-proxy"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws-node-kube-system-DaemonSet",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "DaemonSet",
+          "namespace": "kube-system",
+          "name": "aws-node"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kubernetes-default-Endpoints",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "Endpoints",
+          "namespace": "default",
+          "name": "kubernetes"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kubernetes-default-EndpointSlice",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "EndpointSlice",
+          "namespace": "default",
+          "name": "kubernetes"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kubernetes-default-Service",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "Service",
+          "namespace": "default",
+          "name": "kubernetes"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws\\..*-default-Event",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "Event",
+          "namespace": "default",
+          "name": "aws\\..*"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "kube-root-ca.crt-default-ConfigMap",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ConfigMap",
+          "namespace": "default",
+          "name": "kube-root-ca.crt"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "vpc-resource-validating-webhook-.*-ValidatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ValidatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "vpc-resource-validating-webhook"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "pod-identity-webhook-.*-MutatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "MutatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "pod-identity-webhook"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "vpc-resource-mutating-webhook-.*-MutatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "MutatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "vpc-resource-mutating-webhook"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "node-problem-detector-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "node-problem-detector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0053"
+      }
+    ]
+  },
+  {
+    "name": "node-problem-detector-kube-system-DaemonSet",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "DaemonSet",
+          "namespace": "kube-system",
+          "name": "node-problem-detector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws-load-balancer-controller-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "aws-load-balancer-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws-load-balancer-webhook-.*-MutatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "MutatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "aws-load-balancer-webhook"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "aws-load-balancer-webhook-.*-ValidatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ValidatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "aws-load-balancer-webhook"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": ".*cluster-autoscaler.*-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": ".*cluster-autoscaler.*"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0053"
+      }
+    ]
+  },
+  {
+    "name": "ebs-csi-controller-sa-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "ebs-csi-controller-sa"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0053"
+      }
+    ]
+  },
+  {
+    "name": "ebs-csi-node-sa-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "ebs-csi-node-sa"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0053"
+      }
+    ]
+  },
+  {
+    "name": "ebs-csi-node-kube-system-DaemonSet",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "DaemonSet",
+          "namespace": "kube-system",
+          "name": "ebs-csi-node"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0048"
+      },
+      {
+        "controlID": "c-0057"
+      },
+      {
+        "controlID": "c-0045"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0034"
+      }
+    ]
+  },
+  {
+    "name": "ebs-csi-node-windodws-kube-system-DaemonSet",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "DaemonSet",
+          "namespace": "kube-system",
+          "name": "ebs-csi-node-windodws"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0048"
+      },
+      {
+        "controlID": "c-0057"
+      },
+      {
+        "controlID": "c-0045"
+      },
+      {
+        "controlID": "c-0190"
+      }
+    ]
+  },
+  {
+    "name": "ebs-csi-controller-kube-system-Deployment",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "Deployment",
+          "namespace": "kube-system",
+          "name": "ebs-csi-controller"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      }
+    ]
+  },
+  {
+    "name": "descheduler-kube-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "kube-system",
+          "name": "descheduler"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0053"
+      },
+      {
+        "controlID": "c-0007"
+      }
+    ]
+  },
+  {
+    "name": "istiod-istio-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "istio-system",
+          "name": "istiod"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "istiod-service-account-istio-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "istio-system",
+          "name": "istiod-service-account"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "istio-reader-service-account-istio-system-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "istio-system",
+          "name": "istio-reader-service-account"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "istio-ca-root-cert-default-ConfigMap",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ConfigMap",
+          "namespace": "default",
+          "name": "istio-ca-root-cert"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0212"
+      }
+    ]
+  },
+  {
+    "name": "istio-ingress-istio-ingress-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "istio-ingress",
+          "name": "istio-ingress"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      }
+    ]
+  },
+  {
+    "name": "istio-ingress-internal-istio-ingress-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "istio-ingress",
+          "name": "istio-ingress-internal"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      }
+    ]
+  },
+  {
+    "name": "istio-sidecar-injector-istio-system-ConfigMap",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ConfigMap",
+          "namespace": "istio-system",
+          "name": "istio-sidecar-injector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0012"
+      }
+    ]
+  },
+  {
+    "name": "istio-sidecar-injector-.*-MutatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "MutatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "istio-sidecar-injector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "istiod-default-validator-.*-ValidatingWebhookConfiguration",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ValidatingWebhookConfiguration",
+          "namespace": ".*",
+          "name": "istiod-default-validator"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": ".*"
+      }
+    ]
+  },
+  {
+    "name": "cert-manager-cert-manager-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "cert-manager",
+          "name": "cert-manager"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0015"
+      },
+      {
+        "controlID": "c-0186"
+      },
+      {
+        "controlID": "c-0188"
+      },
+      {
+        "controlID": "c-0007"
+      },
+      {
+        "controlID": "c-0053"
+      },
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      }
+    ]
+  },
+  {
+    "name": "cert-manager-cainjector-cert-manager-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "cert-manager",
+          "name": "cert-manager-cainjector"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0015"
+      },
+      {
+        "controlID": "c-0053"
+      },
+      {
+        "controlID": "c-0186"
+      },
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      }
+    ]
+  },
+  {
+    "name": "cert-manager-webhook-cert-manager-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "cert-manager",
+          "name": "cert-manager-webhook"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0034"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0053"
+      },
+      {
+        "controlID": "c-0015"
+      },
+      {
+        "controlID": "c-0186"
+      }
+    ]
+  },
+  {
+    "name": "external-dns-aws-external-dns-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "external-dns",
+          "name": "external-dns-aws"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0053"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0034"
+      }
+    ]
+  },
+  {
+    "name": "external-dns-cloudflare-external-dns-ServiceAccount",
+    "policyType": "postureExceptionPolicy",
+    "actions": [
+      "alertOnly"
+    ],
+    "resources": [
+      {
+        "designatorType": "Attributes",
+        "attributes": {
+          "kind": "ServiceAccount",
+          "namespace": "external-dns",
+          "name": "external-dns-cloudflare"
+        }
+      }
+    ],
+    "posturePolicies": [
+      {
+        "controlID": "c-0053"
+      },
+      {
+        "controlID": "c-0190"
+      },
+      {
+        "controlID": "c-0034"
+      }
+    ]
+  }
+]
